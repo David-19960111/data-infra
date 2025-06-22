@@ -8,9 +8,9 @@ variable "bucket_name" {
 }
 
 variable "instance_type" {
-    default = "t3.micro"
+    default = "t2.micro"
 }
 
 variable "ami_id" {
-    default = ""
+    default = "ami-09e6f87a47903347c"
 }
