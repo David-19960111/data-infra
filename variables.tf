@@ -15,10 +15,10 @@ variable "ami_id" {
     default = "ami-09e6f87a47903347c"
 }
 
-variable "access_key" {
+variable "aws_access_key" {
   sensitive = true
 }
 
-variable "secret_key" {
+variable "aws_secret_key" {
   sensitive = true
 }
